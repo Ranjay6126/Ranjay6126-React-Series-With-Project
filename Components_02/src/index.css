@@ -1,0 +1,22 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.card {
+  background-color: rgb(33, 121, 187);
+  border-radius: 10px;
+  margin: 30px;
+  height: 70px;
+  width: 60%;       /* or use 200px */
+  padding: 20px;
+}
+.hero{
+  background-color: rgb(48, 87, 87);
+  border-radius: 10px;
+  margin: 30px;
+  height: 70px;
+  width: 60%;       /* or use 200px */
+  padding: 20px;
+} 
+
