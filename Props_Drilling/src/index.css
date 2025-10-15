@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(13, 13, 13);
+}
+
+.parent {
+  padding: 30px;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  height: 350px;
+  width: 260px;
+  background-color: rgb(247, 249, 250);
+  border-radius: 30px;
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+}
+
+/* ---------------------- TOP ---------------------- */
+.card .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.top img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  border: 2px solid rgb(220, 211, 211);
+  padding: 8px;
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid rgb(197, 194, 189);
+  border-radius: 8px;
+  padding: 5px 10px;
+  background: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.top button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* ---------------------- CENTER ---------------------- */
+.center {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.center h3 {
+  font-size: 16px;
+  color: rgb(26, 25, 25);
+}
+
+.center span {
+  font-size: 12px;
+  color: gray;
+}
+
+.center h2.uiux {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.center .tag {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.center .tag h4 {
+  font-size: 13px;
+  background-color: rgb(220, 220, 206);
+  padding: 3px 6px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+/* ---------------------- BOTTOM ---------------------- */
+.bottom {
+  border-top: 2px solid rgb(153, 145, 145);
+  margin-top: auto;
+  padding-top: 15px;
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.bottom-left h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.bottom-left p {
+  font-size: 13px;
+  color: rgb(80, 79, 79);
+}
+
+.bottom button {
+  background-color: black;
+  color: white;
+  padding: 4px 8px;  /* smaller size */
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+.bottom button:hover {
+  background-color: rgb(30, 30, 30);
+  transform: scale(1.05);
+}

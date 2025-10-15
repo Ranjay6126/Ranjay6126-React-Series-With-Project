@@ -14,8 +14,7 @@ const App = () => {
 
       <Card user="Old Car" Discription="This is old car have two engine , i love thie car 😍 i want to buy this car , even it cost is high" age={80} img="https://images.unsplash.com/photo-1758944967067-bf0177898364?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNTl8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&q=60&w=600"/>
       </div>
-    
   )
 }
-
+WW
 export default App
