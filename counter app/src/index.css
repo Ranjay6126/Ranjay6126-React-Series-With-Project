@@ -1,0 +1,29 @@
+*{
+  background-color: black;
+  color:white;
+}
+#box{
+  height: 100px;
+  width: 100px;
+  background-color: beige;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  justify-content: center;
+  border-radius: 10px;
+
+}
+
+.up{
+   height: 50px;
+  width: 100px;
+  background-color: green;
+  border-radius: 20px;
+}
+.down{
+  height: 50px;
+  width: 100px;
+  background-color: red;
+  border-radius: 20px;
+}
