@@ -24,10 +24,13 @@ const App = () => {
     city:'Delhi'
   }
 
-  console.log(userData);
+  console.log('userData','userData');
 
-  localStorage.setItem('userData','userData')
+  localStorage.setItem('userData',JSON.stringify(userData));
 
+  const usera = JSON.parse(localStorage.getItem('userData'));
+  console.log(usera)
+  console.log(typeof user1)
   return (
     <div>
       Hello All is well
