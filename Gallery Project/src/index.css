@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+*{
+  background-color: black;
+  color:white;
+}
+
+button{
+  background-color: rgb(120, 177, 35);
+  height: 70px;
+  width: 90px;
+  border-radius: 20px;
+
+}
