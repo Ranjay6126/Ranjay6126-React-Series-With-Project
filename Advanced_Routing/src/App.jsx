@@ -7,33 +7,31 @@ import Product from "./pages/Product"
 import NotFound from "./pages/NotFound"
 import Men from "./pages/Men"
 import Women from "./pages/Women"
-import Kids from "./pages/Kids"
-
-
+import Kids from "./pages/Kids"        // ✅ Added missing import
+import Courses from "./pages/Courses"
+import CourseDetail from "./pages/CourseDetail"
 
 const App = () => {
   return (
     <div className="h-screen bg-black text-white">
-      <Navbar/>
+      <Navbar />
 
-   <Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/course" element={<Courses />} />
+        <Route path="/courses/:id" element={<CourseDetail />} />
 
-    <Route path='/' element={<Home/>}/>
-    <Route path='/about' element={<About/>}/>
+        <Route path="/product" element={<Product />}>
+          <Route path="men" element={<Men />} />
+          <Route path="women" element={<Women />} /> {/* ✅ fixed path */}
+          <Route path="kids" element={<Kids />} />
+        </Route>
 
-  <Route path='/product' element={<Product/>}>
+        <Route path="*" element={<NotFound />} />
+      </Routes>
 
-    <Route path='men' element={<Men/>}/>
-    <Route Path='women'element={<Women/>}/>
-    <Route path='kids' element={<Kids/>}/>
-
-  </Route>
-
-    <Route path="*" element={<NotFound/>}/>
-
-   </Routes>
-
-      <Footer/>
+      <Footer />
     </div>
   )
 }

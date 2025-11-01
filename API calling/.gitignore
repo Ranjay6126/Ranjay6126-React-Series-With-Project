@@ -11,13 +11,6 @@ node_modules
 dist
 dist-ssr
 *.local
-folder1
-Props_03
-Components_02
-Props_Drilling 
-Components_02
-counter app
-React_Hooks
 
 # Editor directories and files
 .vscode/*
