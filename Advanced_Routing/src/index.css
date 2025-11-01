@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+h6 {
+  display: flex;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%; /* Missing: centers horizontally */
+  transform: translate(-50%, -50%);
+  text-decoration: underline;
+  font-weight: 500; /* should be a number, not px */
+  align-items: center;
+  justify-content: center;
+}
