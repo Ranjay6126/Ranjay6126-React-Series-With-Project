@@ -1,0 +1,17 @@
+.nav{
+  display: flex;
+  background-color: lightblue;
+  justify-content: space-between;
+  padding: 10px 40px;
+  align-items: center;
+
+}
+.nav2{
+  display: flex;
+  gap: 30px;
+}
+
+*{
+  /* background-color: rgb(151, 75, 75); */
+  color: white;
+}
