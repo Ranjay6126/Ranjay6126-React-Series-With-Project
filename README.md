@@ -99,6 +99,27 @@ Create a strong foundation for frontend and MERN stack development
 🛠 Tech Stack
 
 React.js
+Tech Used
+
+React
+
+JavaScript
+
+HTML
+
+CSS
+
+Future Improvements
+
+More React projects
+
+Advanced Hooks
+
+API Integration
+
+Routing
+
+State Management
 
 JavaScript (ES6+)
 
